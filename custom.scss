@@ -1,0 +1,17 @@
+/*-- scss:defaults --*/
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:600,600i&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Fira+Mono&display=swap);
+
+$font-family-sans-serif: Montserrat, sans-serif !default;
+
+// headings
+$presentation-heading-font: Josefin Sans, sans-serif !default;
+$presentation-font-size-root: 1.4rem !default;
+
+$presentation-h1-font-size: 5.75rem !default;
+$presentation-h2-font-size: 3rem !default;
+$presentation-h3-font-size: 2.75rem !default;
+
+

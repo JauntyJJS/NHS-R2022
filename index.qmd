@@ -15,11 +15,36 @@ format:
 library(fontawesome)
 ```
 
-## Quarto
+## Introduction to Lipids
 
-Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
+Lipids are organic compounds that are mostly insoluble in polar solvents like water. 
+
+The most common ones are cholesterol and triglycerides in blood lipid panel test.
+
+
+![](images/Lipids.JPG){fig-alt="First figure on the top left is a picture of a trained medical professional drawing blood samples from a person's arm symbolising a blood lipid panel test." fig-align="center"}
+
+
+::: footer
+
+Blood sample and cell membrane image from [brgfx](https://www.freepik.com/vectors/cell-membrane)
+
+:::
 
 ---
+
+## How Lipids are measured (Targeted Lipidomics)
+
+![](images/Targeted_Lipidomics.JPG){fig-alt="Figure showing the workflow of how lipids are measured in a targeted lipidomics settings. Samples are first converted to lipid extracts. From a given list of transitions to measure, lipids in the extracts are measured using liquid chromatography and mass spectrometry. In the example, a transition from an internal standard Ceramide d eighteen one twelve zero is measured. This results in chromatogram peaks which the user needs to integrate the area under curve. In the case of the internal standard Ceramide d 18 1 12 0, it is four hundred and seventy nine thousand and twenty five. After the peaks are integrated for all samples and transtions, the peak area data are exported for further processing." fig-align="center"}
+
+---
+
+## Quality Control (QC) Samples
+
+Quality control samples helps to check the severity of variation from external sources such as contaminant ions. We want to keep molecules that gives a low variation on the quality control samples. Plots are exported as pages in a pdf file.
+
+![](images/Injection_Sequence_Plot.JPG){fig-alt="Figure showing the workflow of how lipids are measured in a targeted lipidomics settings. Samples are first converted to lipid extracts. From a given list of transitions to measure, lipids in the extracts are measured using liquid chromatography and mass spectrometry. In the example, a transition from an internal standard Ceramide d eighteen one twelve zero is measured. This results in chromatogram peaks which the user needs to integrate the area under curve. In the case of the internal standard Ceramide d 18 1 12 0, it is four hundred and seventy nine thousand and twenty five. After the peaks are integrated for all samples and transtions, the peak area data are exported for further processing." fig-align="center"}
+
 
 ## Motivation for using [`plotly`](https://plotly.com/r/) and [`trelliscopejs`](https://hafen.github.io/trelliscopejs/)
 

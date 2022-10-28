@@ -55,6 +55,12 @@ Today's targeted lipidomics workflow can measure up to a few hundred molecules. 
 
 ![](images/Motivation1.JPG){fig-alt="Figure showing an injection sequence" fig-align="center"}
 
+::: footer
+
+Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)
+
+:::
+
 ## Motivation for using [`plotly`](https://plotly.com/r/) and [`trelliscopejs`](https://hafen.github.io/trelliscopejs/)
 
 ::: columns
@@ -76,7 +82,6 @@ Out of > 500 molecules,
 :::
 
 :::
-
 
 
 ## Motivation for using [`plotly`](https://plotly.com/r/) and [`trelliscopejs`](https://hafen.github.io/trelliscopejs/)
@@ -167,7 +172,33 @@ To export a Quarto document with `trelliscopejs` object.
 
 Exported examples are found under the [Releases](https://github.com/JauntyJJS/Trelliscopejs_In_Quarto_Example/releases) section in the below [GitHub page](https://github.com/JauntyJJS/Trelliscopejs_In_Quarto_Example).'
 
+<br>
+
 ![](images/Distribution3.JPG){fig-alt="Figure showing a GitHub page highlighting where the Releases section is. Double clicking on the Releases section will bring users to the exported examples which can be downloaded as zip files." fig-align="center"}
+
+---
+
+## Other Resources
+
+`trelliscopejs` Examples
+
+- <https://ryanhafen.com/blog/pokemon/>
+
+- <https://hafen.github.io/trelliscopejs-demo/mri/>
+
+- <https://hafen.github.io/trelliscopejs-demo/network/>
+
+- <https://www.rostrum.blog/2019/06/20/goat-scope/>
+
+Presentation
+
+- <https://www.rstudio.com/resources/rstudioconf-2017/trelliscopejs/>
+
+- <https://www.youtube.com/watch?v=TgFJrfSEKuQ>
+    - See talk at around 54.55
+    - [Slides](https://github.com/agstn/UseR2022_dashboards)
+
+Hope to see more examples...
 
 ---
 

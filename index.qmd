@@ -9,6 +9,11 @@ format:
     scrollable: true
     mouse-wheel: true
     theme: [custom.scss]
+    
+title-slide-attributes:
+    data-background-image: "images/title.JPG"
+    data-background-size: stretch
+    data-background-opacity: "1"
 ---
 
 ```{r setup, include=FALSE}

@@ -43,7 +43,40 @@ Blood sample and cell membrane image from [brgfx](https://www.freepik.com/vector
 
 Quality control samples helps to check the severity of variation from external sources such as contaminant ions. We want to keep molecules that gives a low variation on the quality control samples. Plots are exported as pages in a pdf file.
 
-![](images/Injection_Sequence_Plot.JPG){fig-alt="Figure showing the workflow of how lipids are measured in a targeted lipidomics settings. Samples are first converted to lipid extracts. From a given list of transitions to measure, lipids in the extracts are measured using liquid chromatography and mass spectrometry. In the example, a transition from an internal standard Ceramide d eighteen one twelve zero is measured. This results in chromatogram peaks which the user needs to integrate the area under curve. In the case of the internal standard Ceramide d 18 1 12 0, it is four hundred and seventy nine thousand and twenty five. After the peaks are integrated for all samples and transtions, the peak area data are exported for further processing." fig-align="center"}
+<br>
+
+![](images/Injection_Sequence_Plot.JPG){fig-alt="Figure showing an injection sequence of internal standard Ceramide d eighteen one twelve zero as a bar chart. The y axis is peak area while the x axis is the injection sequence. The different colours on the bar chart repsresent the different QC sample type. The important ones are the ones in blue representing the BQC. The coefficient of variation of the BQC is around 0.085 which is a low value. Hence, the internal standard Ceramide d eighteen one twelve zero has a low interference from unwanted sources. This injection sequence bar chart is exported as a pdf file." fig-align="center"}
+
+## Motivation for using [`plotly`](https://plotly.com/r/) and [`trelliscopejs`](https://hafen.github.io/trelliscopejs/)
+
+Today's targeted lipidomics workflow can measure up to a few hundred molecules. This gives a pdf file of over 500 pages. Looking at these static plot individually to gain insights is tedious.
+
+<br>
+
+![](images/Motivation1.JPG){fig-alt="Figure showing an injection sequence" fig-align="center"}
+
+## Motivation for using [`plotly`](https://plotly.com/r/) and [`trelliscopejs`](https://hafen.github.io/trelliscopejs/)
+
+::: columns
+
+::: {.column width="48%"}
+
+Out of > 500 molecules,
+
+-    Can I have more info about the outlying samples in the red box ?
+-    How many Ceramides have BQC CV over 20% ?
+-    Can you plot the same data as a Raincloud Plot ?
+
+:::
+
+::: {.column width="52%"}
+
+![](images/Motivation2.JPG){fig-alt="Figure showing an injection sequence" fig-align="center"}
+
+:::
+
+:::
+
 
 
 ## Motivation for using [`plotly`](https://plotly.com/r/) and [`trelliscopejs`](https://hafen.github.io/trelliscopejs/)
@@ -63,7 +96,6 @@ Interactive plots cannot be stored in pdf files.
 - Lack expertises to maintain a secure web server to run [Shiny](https://shiny.rstudio.com/) applications.
   
 - Cannot expect collaborators/managers to install/run R packages and code to rebuild the [Shiny](https://shiny.rstudio.com/) application just to view the results.
-]
 
 
 :::

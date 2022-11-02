@@ -21,3 +21,11 @@ $font-family-monospace: 'Fira Mono', monospace  !default;
 #title-slide .title{
   font-size: 5rem; 
 }
+
+#title-slide .quarto-title-authors{
+  font-size: 2rem;
+}
+
+.reveal .footer > * {
+  font-size: 1rem;
+}

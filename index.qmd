@@ -1,6 +1,7 @@
 ---
-title: "Viewing Multiple Interactive Plots With [`plotly`](https://plotly.com/r/) And [`trelliscopejs`](https://hafen.github.io/trelliscopejs/)"
-author: "Jeremy Selva"
+title: |
+  Viewing Multiple Interactive Plots with [`plotly`](https://plotly.com/r/) And [`trelliscopejs`](https://hafen.github.io/trelliscopejs/)
+author: Jeremy Selva
 format:
   revealjs:
     controls: true
@@ -9,10 +10,11 @@ format:
     scrollable: true
     mouse-wheel: true
     theme: [custom.scss]
+    footer: "[R-Ladies](https://rladies.org/) theme"
     
 title-slide-attributes:
     data-background-image: "images/title.JPG"
-    data-background-size: stretch
+    data-background-size: contain
     data-background-opacity: "1"
 ---
 

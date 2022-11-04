@@ -258,7 +258,7 @@ jauntyjjs-nhs-r-2022.netlify.app
 
 ## Results Distribution
 
-Exported examples are found under the [Releases](https://github.com/JauntyJJS/Trelliscopejs_In_Quarto_Example/releases) section in the below [GitHub page](https://github.com/JauntyJJS/Trelliscopejs_In_Quarto_Example).'
+Exported examples are found under the [Releases](https://github.com/JauntyJJS/Trelliscopejs_In_Quarto_Example/releases) section in the below [GitHub page](https://github.com/JauntyJJS/Trelliscopejs_In_Quarto_Example).
 
 <br>
 

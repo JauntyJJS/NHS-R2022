@@ -10,6 +10,25 @@ format:
     scrollable: true
     mouse-wheel: true
     theme: [custom.scss]
+    include-in-header: 
+      text: |
+        <meta name="github-repo" content="JauntyJJS/NHS-R2022"/>
+        <meta name="twitter:title" content="Viewing Multiple Inteactive Plots Using Plotly and Trelliscopejs"/>
+        <meta name="twitter:description" content="NHS-R Online Conference 2022. "/>
+        <meta name="twitter:url" content="https://jauntyjjs-nhs-r-2022.netlify.app/"/>
+        <meta name="twitter:image" content="https://raw.githubusercontent.com/JauntyJJS/NHS-R2022/main/share-card.png"/>
+        <meta name="twitter:image:alt" content="Title slide of Viewing Multiple Inteactive Plots Using Plotly and Trelliscopejs presented at NHS-R Online Conference 2022."/>
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:creator" content="@JauntyJJS"/>
+        <meta name="twitter:site" content="@JauntyJJS"/>
+        <meta property="og:title" content="Viewing Multiple Inteactive Plots Using Plotly and Trelliscopejs"/>
+        <meta property="og:description" content="NHS-R Online Conference 2022. "/>
+        <meta property="og:url" content="https://jauntyjjs-nhs-r-2022.netlify.app/"/>
+        <meta property="og:image" content="https://raw.githubusercontent.com/JauntyJJS/NHS-R2022/main/share-card.png"/>
+        <meta property="og:image:alt" content="Title slide of Viewing Multiple Inteactive Plots Using Plotly and Trelliscopejs presented at NHS-R Online Conference 2022."/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:locale" content="en_US"/>
+        <meta property="article:author" content="Jeremy Selva"/>
 title-slide-attributes:
     data-background-image: "images/title.JPG"
     data-background-size: contain
@@ -18,28 +37,6 @@ title-slide-attributes:
 
 ```{r setup, include=FALSE}
 library(fontawesome)
-library(metathis)
-```
-
-```{r metathis, include=FALSE, eval=FALSE}
-meta() %>%
-  meta_name("github-repo" = "JauntyJJS/NHS-R2022") %>% 
-  meta_social(
-    title = "Viewing Multiple Inteactive Plots Using Plotly and Trelliscopejs",
-    description = glue::glue("
-    NHS-R Online Conference 2022. 
-    "),
-    url = "https://jauntyjjs-nhs-r-2022.netlify.app/",
-    image = "https://raw.githubusercontent.com/JauntyJJS/NHS-R2022/main/share-card.png",
-    image_alt = glue::glue("
-      Title slide of Viewing Multiple Inteactive Plots Using \\
-      Plotly and Trelliscopejs presented at NHS-R Online Conference 2022.
-      "),
-    og_type = "website",
-    og_author = "Jeremy Selva",
-    twitter_card_type = "summary_large_image",
-    twitter_creator = "@JauntyJJS"
-  )
 ```
 
 ## Introduction to Lipids
